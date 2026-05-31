@@ -9,7 +9,6 @@ const ThemeContext = (props) => {
   return (
     <div>
       <DataPost.Provider value={[theme,settheme]}>
-        <h2>that is theme </h2>
         {props.children}
       </DataPost.Provider>
     </div>
