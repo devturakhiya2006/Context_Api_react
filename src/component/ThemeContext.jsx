@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { createContext } from 'react'
 
 export const DataPost=createContext()
-
 const ThemeContext = (props) => {
     const [theme, settheme] = useState('light')
   return (
@@ -14,5 +13,4 @@ const ThemeContext = (props) => {
     </div>
   )
 }
-
 export default ThemeContext

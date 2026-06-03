@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './componenet/Navbar'
+import Navbar from './component/Navbar'
 
 const App = () => {
   
